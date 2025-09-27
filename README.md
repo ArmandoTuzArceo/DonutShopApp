@@ -1,47 +1,6 @@
 
-# Donut Shop App Setup Instructions
 
-## Prerequisites
-- Install [Flutter](https://docs.flutter.dev/get-started/install) SDK
-- Install [Dart](https://dart.dev/get-dart) (comes with Flutter)
-- Install Android Studio or VS Code (recommended)
-- Ensure you have a device/emulator for testing
-
-## Getting Started
-1. **Clone the repository**
-	 ```sh
-	 git clone <your-repo-url>
-	 cd testA
-	 ```
-2. **Install dependencies**
-	 ```sh
-	 flutter pub get
-	 ```
-3. **Run the app**
-	 - For Android:
-		 ```sh
-		 flutter run
-		 ```
-	 - For iOS (Mac only):
-		 ```sh
-		 flutter run
-		 ```
-	 - For Web:
-		 ```sh
-		 flutter run -d chrome
-		 ```
-
-## Project Structure
-- `lib/` - Main source code
-	- `main.dart` - App entry point
-	- `models/` - Data models (e.g., Donut)
-	- `pages/` - Main screens/pages (Home, Cart, Details, Favorites, etc.)
-	- `widgets/` - Reusable UI components
-- `assets/` - Images and icons
-- `pubspec.yaml` - Dependency and asset configuration
-
-
-## User Manual
+## USER MANUAL
 
 Welcome to the Donut Shop App! This guide will help you get started and make the most of your experience.
 
