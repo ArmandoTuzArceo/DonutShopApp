@@ -1,0 +1,77 @@
+Donut Shop App – Technical Report
+
+Author: Jose Armando Tuz Arceo
+Date: September 26, 2025
+
+---
+
+# Technical Report
+
+## 1. Setup Process
+
+- **Project Initialization:**
+  - Created the main project folder `testA` using Flutter CLI.
+  - Initialized the Flutter project structure with `lib/`, `assets/`, and platform folders (`android/`, `ios/`, `web/`, etc.).
+- **Folder Organization:**
+  - Divided the codebase into logical subfolders:
+    - `models/` for data models (e.g., Donut)
+    - `pages/` for main screens (Home, Cart, Details, Favorites, All Products)
+    - `widgets/` for reusable UI components (DonutTile, FullscreenImageViewer)
+    - `icons/` and `images/` for static assets
+  - Configured `pubspec.yaml` to include all required assets and dependencies.
+- **State Management:**
+  - Integrated Provider for efficient state management across pages.
+- **Development Tools:**
+  - Used VS Code and Android Studio for development and testing.
+  - Set up emulators for Android and web platforms.
+
+
+## 2. Key Learnings
+
+As this was my very first app development experience, the learning curve was both challenging and rewarding. Working with Flutter, I discovered how powerful and flexible its widget system is. I learned to build custom widgets and compose them to create intuitive layouts, which gave me a solid foundation for UI development.
+
+State management was another important concept I grasped. Using Provider, I was able to manage global states such as favorites and the shopping cart, ensuring that changes were reflected seamlessly across different pages. This helped me understand how data flows within a Flutter application and the importance of keeping state organized.
+
+Navigation between screens was a new experience for me. Implementing page transitions with Flutter's Navigator taught me how to structure an app so users can move smoothly from one section to another. I also realized the value of localization, as I translated all product data and UI texts to English, making the app accessible to a wider audience.
+
+Designing the user interface was a creative process. I enjoyed applying custom styles, especially when creating a stylish app title and organizing categories for a modern look. Throughout the project, I made sure to document my code thoroughly, adding comments to all Dart files to make the codebase maintainable and easy to understand for future development.
+
+## 3. Challenges Faced
+
+- **Data Translation:**
+  - Challenge: Translating all product data and category names to English while maintaining accuracy.
+  - Solution: Systematically reviewed and updated each category and product entry.
+- **State Synchronization:**
+  - Challenge: Ensuring cart and favorites states update correctly across all pages.
+  - Solution: Leveraged Provider and tested state changes thoroughly.
+- **UI Consistency:**
+  - Challenge: Maintaining a consistent and modern UI across different devices and screen sizes.
+  - Solution: Used responsive layouts and tested on multiple platforms.
+- **Code Maintainability:**
+  - Challenge: Keeping code organized and understandable as features grew.
+  - Solution: Structured code into clear folders and added detailed comments throughout.
+
+## 4. Code Structure
+
+- **lib/**
+  - `main.dart`: App entry point, Provider setup, theme configuration.
+  - `models/donut.dart`: Defines the Donut data model and product attributes.
+  - `pages/`: Contains all main screens:
+    - `home_page.dart`: Displays categories and products
+    - `details_page.dart`: Shows detailed product info
+    - `cart_page.dart`: Manages cart items
+    - `favorites_page.dart`: Manages favorite products
+    - `all_products_page.dart`: Shows all products in a grid/list
+  - `widgets/`: Reusable UI components for product tiles and image viewing.
+- **assets/**
+  - `icons/` and `images/`: All static assets used in the app
+- **pubspec.yaml**
+  - Lists dependencies (Provider, Flutter SDK) and asset paths
+
+## 5. Conclusion
+
+The Donut Shop App project provided valuable experience in Flutter development, state management, and UI design. Through careful structuring, documentation, and problem-solving, the app is now maintainable, scalable, and user-friendly. All major features and requirements have been successfully implemented.
+
+---
+
+End of Report.
