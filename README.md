@@ -1,7 +1,6 @@
 
 
 ## USER MANUAL
-
 Welcome to the Donut Shop App! This guide will help you get started and make the most of your experience.
 
 ### Home Page
